@@ -18,7 +18,7 @@ cloud.id: "SIEM-DEMO:dXMtZWFzdC0xLmF3cy5mb3VuZC5pbyQ2YzIy..."
 cloud.auth: "elastic:<tu_contraseña_aqui>"
 ```
 
-![Auditbeat Configuration](../images/02-agent-deploy/10-auditbeat-configuration.jpeg)
+<img src="../images/02-agent-deploy/10-auditbeat-configuration.jpeg" alt="Auditbeat Configuration" width="700">
 
 ## 2. Inicialización del Agente
 
@@ -35,9 +35,9 @@ sudo service auditbeat start
 sudo service auditbeat status
 ```
 
-![Auditbeat Status CMD](../images/02-agent-deploy/11-auditbeat-status-cmd.jpeg)
+<img src="../images/02-agent-deploy/11-auditbeat-status-cmd.jpeg" alt="Auditbeat Status CMD" width="700">
 
-![Auditbeat Service Active](../images/02-agent-deploy/12-auditbeat-status-active.jpeg)
+<img src="../images/02-agent-deploy/12-auditbeat-status-active.jpeg" alt="Auditbeat Service Active" width="700">
 
 > [!NOTE]
 > Finalmente, regresamos a la consola web de Elastic y presionamos `Check data` para confirmar que los datos se están recibiendo correctamente (Data successfully received).

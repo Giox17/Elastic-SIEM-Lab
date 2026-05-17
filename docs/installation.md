@@ -8,18 +8,18 @@
 Para comenzar, nos registramos en el portal de Elastic y accedemos al dashboard principal para crear nuestro entorno de trabajo.
 [https://cloud.elastic.co/login](https://cloud.elastic.co/login?redirectTo=%2Fhome)
 
-![Registro Inicial](../images/01-cloud-setup/01-registration.jpeg)
+<img src="../images/01-cloud-setup/01-registration.jpeg" alt="Registro Inicial" width="700">
 
-![Dashboard Overview](../images/01-cloud-setup/02-dashboard-overview.jpeg)
+<img src="../images/01-cloud-setup/02-dashboard-overview.jpeg" alt="Dashboard Overview" width="700">
 
 Creamos un nuevo Deployment especificando el proveedor de nube y la región:
 - **Name**: SIEM-DEMO
 - **Cloud Provider**: AWS (o el de preferencia)
 - **Version**: Última versión disponible (ej. 9.3.4)
 
-![Create Deployment](../images/01-cloud-setup/03-create-deployment.jpeg)
+<img src="../images/01-cloud-setup/03-create-deployment.jpeg" alt="Create Deployment" width="700">
 
-![Deployment Settings](../images/01-cloud-setup/04-deployment-settings.jpeg)
+<img src="../images/01-cloud-setup/04-deployment-settings.jpeg" alt="Deployment Settings" width="700">
 
 > [!IMPORTANT]
 > **Respaldo de Credenciales**: Es crítico descargar y guardar de forma segura el usuario, la contraseña generada automáticamente y el Cloud ID, ya que los utilizaremos para vincular nuestro agente (Auditbeat) más adelante.
@@ -34,9 +34,9 @@ Para auditar y monitorear los procesos y archivos de nuestra máquina Ubuntu, ut
 
 Dentro de Elastic Security, navegamos a `Add Integrations` y buscamos `Auditbeat Events`, seleccionando las instrucciones para Linux (DEB).
 
-![Elastic Integrations](../images/02-agent-deploy/05-elastic-integrations.jpeg)
+<img src="../images/02-agent-deploy/05-elastic-integrations.jpeg" alt="Elastic Integrations" width="700">
 
-![Auditbeat Getting Started](../images/02-agent-deploy/06-auditbeat-getting-started.jpeg)
+<img src="../images/02-agent-deploy/06-auditbeat-getting-started.jpeg" alt="Auditbeat Getting Started" width="700">
 
 ## 2. Instalación en la Máquina Ubuntu
 
@@ -53,6 +53,6 @@ curl -L -O https://artifacts.elastic.co/downloads/beats/auditbeat/auditbeat-9.3.
 sudo dpkg -i auditbeat-9.3.4-amd64.deb
 ```
 
-![Instalación de curl](../images/02-agent-deploy/07-auditbeat-install-cmd1.jpeg)
-![Descarga de Auditbeat](../images/02-agent-deploy/08-auditbeat-install-cmd2.jpeg)
-![Instalación con dpkg](../images/02-agent-deploy/09-auditbeat-install-cmd3.jpeg)
+<img src="../images/02-agent-deploy/07-auditbeat-install-cmd1.jpeg" alt="Instalación de curl" width="700">
+<img src="../images/02-agent-deploy/08-auditbeat-install-cmd2.jpeg" alt="Descarga de Auditbeat" width="700">
+<img src="../images/02-agent-deploy/09-auditbeat-install-cmd3.jpeg" alt="Instalación con dpkg" width="700">

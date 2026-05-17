@@ -55,4 +55,4 @@ chmod +x scripts/simulate-attacks.sh
 Las técnicas y scripts aquí documentados (como el DNS Spoofing y persistencia) se presentan **estrictamente con fines educativos y de investigación en entornos de laboratorio controlados**. No utilice estos métodos en infraestructuras de producción sin la debida autorización.
 
 ---
-**Autor:** Ingeniero DevSecOps
+**Autor:** Giovani Hernández

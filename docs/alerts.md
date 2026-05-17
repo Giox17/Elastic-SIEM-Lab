@@ -25,8 +25,8 @@ Inmediatamente, el SIEM recoge esta actividad. En Elastic Security, bajo la secc
 
 El SIEM clasifica estas acciones bajo la categoría de `iam` (Gestión de Identidad y Accesos) y etiqueta los eventos como `user_added` y `user_changed`.
 
-![Uncommon Processes Overview](../images/04-threat-simulation/15-uncommon-processes-overview.png)
-![Uncommon Processes Detail](../images/04-threat-simulation/16-uncommon-processes-detail.png)
+<img src="../images/04-threat-simulation/15-uncommon-processes-overview.png" alt="Uncommon Processes Overview" width="700">
+<img src="../images/04-threat-simulation/16-uncommon-processes-detail.png" alt="Uncommon Processes Detail" width="700">
 
 ## Escenario B: Monitoreo de Integridad de Archivos (FIM) y DNS Spoofing
 
@@ -49,4 +49,4 @@ event.module: "file_integrity" AND file.path: "/etc/hosts"
 
 El SIEM nos muestra una alerta de nivel `file` con la acción `updated / attributes_modified`. El analista de seguridad puede ver exactamente qué archivo fue manipulado, en qué máquina y la marca de tiempo exacta del compromiso.
 
-![FIM Alert](../images/04-threat-simulation/17-fim-alert.png)
+<img src="../images/04-threat-simulation/17-fim-alert.png" alt="FIM Alert" width="700">
