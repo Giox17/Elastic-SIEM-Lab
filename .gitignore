@@ -1,0 +1,28 @@
+# Elastic Stack & SIEM exclusions
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS Generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Credentials and sensitive config
+secrets/
+*.env
+.env
+*.pem
+*.key
+auditbeat.keystore

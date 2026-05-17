@@ -1,0 +1,10 @@
+# ================================== Elastic Cloud ==================================
+# Configuración de conexión directa con Elastic Cloud.
+# Reemplace con sus datos del panel de administración obtenidos en la Fase 1.
+
+cloud.id: "SIEM-DEMO:dXMtZWFzdC0xLmF3cy5mb3VuZC5pbyQ2YzIy..."
+cloud.auth: "elastic:<tu_contraseña_aqui>"
+
+# ================================== Outputs ========================================
+# Nota: Al usar cloud.id y cloud.auth, las secciones directas de 'output.elasticsearch' 
+# y 'output.kibana' deben permanecer comentadas o deshabilitadas.
